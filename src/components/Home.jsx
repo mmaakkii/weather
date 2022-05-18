@@ -51,7 +51,7 @@ const TopContainer = styled.div`
   justify-content: space-between;
 `;
 
-const EmptyText = styled(BaseFontStyles)`
+export const EmptyText = styled(BaseFontStyles)`
   font-size: 4rem;
   font-weight: 300;
   text-align: center;

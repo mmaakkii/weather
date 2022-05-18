@@ -1,4 +1,4 @@
-export const ACCU_WEATHER_BASE_URL = 'http://dataservice.accuweather.com';
+export const ACCU_WEATHER_BASE_URL = 'https://dataservice.accuweather.com';
 export const SAVED_RESPONSES_KEY = 'ACCU_WEATHER_LOCATION_DATA';
 export const SAVED_WEATHER_RESPONSES_KEY = 'ACCU_WEATHER_DATA';
 export const FAVORITE_WEATHER_KEY = 'FAVORITE_LOCATION_WEATHER';
