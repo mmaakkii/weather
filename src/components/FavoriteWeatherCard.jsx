@@ -57,7 +57,7 @@ export const WeatherCard = ({
     timeDifference > 1 ? `${timeDifference} minutes ago` : 'About a minute ago';
   return (
     <Container onClick={handleCardClick}>
-      <Icon component={StyledRefreshIcon} />
+      {/* <Icon component={StyledRefreshIcon} /> */}
       <Temperature>{temperature.metric}°</Temperature>
       <City>{city}</City>
       <Weather>{weatherText}</Weather>
