@@ -47,7 +47,7 @@ export const AppContainer = () => {
       target: { value },
     } = e;
     const useCachedResponse = eval(process.env.REACT_APP_USE_CACHE);
-    console.log(useCachedResponse);
+
     const localResponses = searchLocationFromLocal(value);
     if (localResponses.length && useCachedResponse) {
       console.log('using cached');
@@ -70,7 +70,6 @@ export const AppContainer = () => {
     const localResponse = searchWeatherFromLocal(key);
     const useCachedResponse = eval(process.env.REACT_APP_USE_CACHE);
     if (localResponse && useCachedResponse) {
-      console.log('using cached 2', eval(useCachedResponse));
       setCurrentWeather(localResponse);
     } else {
       try {
